@@ -1,0 +1,177 @@
+.nav4 {
+  display: none;
+  background-color: black; }
+
+.nav4 li {
+  height: 2rem;
+  text-align: center;
+  border-bottom: 1px solid white; }
+  .nav4 li a {
+    color: white; }
+
+.header__btnItems:hover .nav4 {
+  display: block;
+  position: absolute; }
+
+.header__btn {
+  display: none; }
+  @media screen and (max-width: 576px) {
+    .header__btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      order: -1; }
+      .header__btn button {
+        background-color: white;
+        border: none;
+        width: 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .header__logo {
+    flex-grow: 1;
+    justify-content: center; } }
+
+@media screen and (max-width: 576px) {
+  .header__logo img {
+    display: none; } }
+
+.header__logo div {
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 0.5rem; }
+
+.header__info {
+  font-size: 12px;
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .header__info {
+      display: none; } }
+
+.header__infoCallMe button {
+  font-size: 11px; }
+
+.header__info select, .header__infoCallMe button {
+  border: none;
+  color: #C6A464;
+  border-bottom: 1px dashed #C6A464;
+  background-color: white;
+  padding: 0; }
+
+.header__infoTelephone {
+  font-size: 18px;
+  font-weight: 800; }
+
+@media screen and (max-width: 576px) {
+  .header__nav {
+    order: -1; } }
+
+.header__nav .navTop__message {
+  width: 30%; }
+  .header__nav .navTop__message div {
+    width: 2rem; }
+  @media screen and (max-width: 992px) {
+    .header__nav .navTop__message {
+      width: 40%; } }
+  @media screen and (max-width: 576px) {
+    .header__nav .navTop__message {
+      display: none; } }
+
+.header__nav .navTop__search {
+  width: 60%;
+  background-color: #F4F8FB; }
+  @media screen and (max-width: 992px) {
+    .header__nav .navTop__search {
+      width: 60%; } }
+  @media screen and (max-width: 576px) {
+    .header__nav .navTop__search {
+      background-color: white;
+      display: none; } }
+  .header__nav .navTop__search button, .header__nav .navTop__search input {
+    color: #B3BDC3;
+    font-size: 11px;
+    height: 100%;
+    border: none;
+    background-color: #F4F8FB; }
+    @media screen and (max-width: 576px) {
+      .header__nav .navTop__search button, .header__nav .navTop__search input {
+        background-color: white; } }
+  @media screen and (max-width: 992px) {
+    .header__nav .navTop__search input {
+      width: 70%; } }
+
+@media screen and (max-width: 576px) {
+  .header__navBottom {
+    display: none; } }
+
+.header__navBottom nav ul li {
+  font-size: 13px;
+  margin-right: 1rem; }
+
+.header__navBottom nav ul li:last-child {
+  margin-right: 0rem; }
+
+.header__navBottom nav select {
+  border: none;
+  font-size: 13px;
+  background-color: white;
+  padding: 0; }
+
+@media screen and (max-width: 992px) {
+  .header__navBottom .nav1 {
+    display: none; } }
+
+.header__navBottom .nav2 {
+  display: none; }
+  @media screen and (max-width: 992px) {
+    .header__navBottom .nav2 {
+      display: flex; } }
+
+.header__navBottom .nav3 {
+  display: none;
+  position: absolute;
+  background-color: black; }
+  .header__navBottom .nav3 li {
+    margin: 0;
+    border-bottom: 1px solid white;
+    height: 2rem;
+    text-align: center; }
+    .header__navBottom .nav3 li a {
+      color: white; }
+
+.header__navBottom .nav3Hover:hover .nav3 {
+  display: block; }
+
+.header__signInTop {
+  width: 100%; }
+  @media screen and (max-width: 576px) {
+    .header__signInTop {
+      display: none; } }
+  .header__signInTop button {
+    border: 1px solid #47708A;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 13px;
+    width: 100%;
+    height: 2rem; }
+
+.header__signInBottom {
+  width: 100%; }
+  .header__signInBottom button {
+    border: none;
+    background-color: white;
+    width: 50%;
+    height: 2rem; }
+  @media screen and (max-width: 576px) {
+    .header__signInBottom .btn__like {
+      display: none; } }
+  @media screen and (max-width: 576px) {
+    .header__signInBottom .btn__basket {
+      width: 3rem; } }
+
+hr {
+  border: 1px solid #E1ECF2;
+  display: none;
+  margin: 0; }
+  @media screen and (max-width: 576px) {
+    hr {
+      display: block; } }
